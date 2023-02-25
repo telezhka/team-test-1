@@ -2,3 +2,27 @@
     padding: 30px 0;
     background-color: crimson;
 }
+
+.block {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(227, 161, 7);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.box {
+    width: 900px;
+    padding: 100px;
+    margin: 0 auto;
+    background-color: rgb(239, 227, 14);
+}
+
+.box:not(:last-child) {
+    margin-bottom: 300px;
+}
