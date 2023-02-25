@@ -12,6 +12,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -32,6 +36,40 @@
           ratione nihil!
         </p>
       </section>
+      <section>
+        <!-- https://animate.style/ -->
+        <!-- https://wowjs.uk/docs.html -->
+        <div class="block animate__animated animate__fadeInRight"></div>
+
+        <div
+          class="box wow animate__animated animate__backInLeft"
+          data-wow-duration="4s"
+        >
+          <img src="./img/cat1.jpg" alt="" width="500" />
+        </div>
+
+        <div
+          class="box wow animate__animated animate__backInRight"
+          data-wow-duration="4s"
+        >
+          <img src="./img/cat2.jpg" alt="" width="500" />
+        </div>
+
+        <div class="box wow animate__animated animate__backInLeft">
+          <img src="./img/cat3.jpg" alt="" width="500" />
+        </div>
+
+        <div
+          class="wow animate__animated animate__rotateInUpRight"
+          data-wow-delay="3s"
+        >
+          <img src="./img/cat2.jpg" alt="" width="500" />
+        </div>
+
+        <div class="box wow animate__animated animate__backInRight">
+          <img src="./img/dog1.webp" alt="" width="500" />
+        </div>
+      </section>
     </main>
     <footer>
       <p>
@@ -40,5 +78,11 @@
         quod totam repellat recusandae accusam
       </p>
     </footer>
+
+    <script src="./js/wow.min.js"></script>
+
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
